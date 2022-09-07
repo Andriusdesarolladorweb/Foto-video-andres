@@ -1,0 +1,262 @@
+.cont01 h1{
+    color: #fff;
+    margin-top: 50px;
+    text-align: center;
+    background: #2fb4cc;
+}
+.contenido {
+    margin: 10px;
+    margin-top: 10px;
+    display: flex;
+  
+    margin-left: 35px;
+}
+.contenido p{
+     margin: 15px;
+    padding: 10px;
+    margin-top: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+.cont01 h3{
+    margin-left: 30px;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    width: 300px;
+    text-align: center;
+
+    
+}
+
+.contenido img{
+     
+    width: 320px;
+    height: 420px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 25px rgba(43, 43, 43, 0.2);
+    
+}
+
+
+
+.item:hover{
+filter: brightness(80%);
+}
+
+
+
+.modal{
+    position: fixed;
+ 
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(43, 43, 43, 0.2);
+    display: flex;
+--opacity: 0;
+--pointer: none;
+
+opacity: var(--opacity);
+pointer-events: var(--pointer);
+transition: opacity .5s;
+}
+
+.modal_container{
+    margin: auto;
+    background: white;
+    width: 90%;
+    max-width: 600px;
+    max-height: 90%;
+    overflow: hidden;
+    text-align: center;
+    padding: 2.5em;
+}
+
+.modal:target{
+    --opacity: 0;
+    --pointer: unset;
+
+
+
+}
+.moda-title h3{
+    font-family: 'Noto Serif', serif;
+}
+
+
+
+@import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans';
+
+
+.navbar-brand  {
+  margin: 0px;
+  padding: 0px;
+}
+.navbar-brand img {
+  width: 250px;
+  margin: 4px;
+  
+}
+
+.navbar .nav {
+  font-family: 'Times New Roman', Times, serif;
+
+
+  font-size: 16px;
+}
+
+.navbar-inverse {
+  background-color: #000000
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+  background-color: #000000
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+  background-color: #000000
+}
+
+.dropdown-menu {
+  background-color: #000000
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+  background-color: #000000
+}
+
+.navbar-inverse {
+  background-image: none;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+  background-image: none;
+}
+
+.navbar-inverse {
+  border-color: #000000
+}
+
+.navbar-inverse .navbar-brand {
+  color: #FFFFFF
+}
+
+.navbar-inverse .navbar-brand:hover {
+  color: #FFCC00
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+  color: #FFCC00
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+  color: #FFCC00
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+  color: #FFCC00
+}
+
+.dropdown-menu>li>a {
+  color: #FFFFFF
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+  color: #FFCC00
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+  border-top-color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+  border-top-color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+  border-bottom-color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+  border-bottom-color: #FFFFFF
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+
+@media (max-width: 768px) {
+  header label {
+    display: block;
+    padding-top: 16px;
+    padding-right: 16px;
+    transition: all 0.4s ease;
+  }
+  
+  .menu {
+    position: absolute;
+    top: 64px;
+    left: 0;
+    width: 70%;
+    transform: translateX(-100%);
+    transition: all 0.3s;
+  }
+  
+  .menu ul {
+    flex-direction: column;
+    display: block;
+  }
+  
+  .menu ul li:hover ul {
+    display: none;
+    position: static;
+  }
+  
+  .menu a i {
+    position: absolute;
+    right: 16px;
+    line-height: 32px;
+  }
+  
+  #btn-menu:checked ~ .menu {
+    transform: translateX(0%);
+  }
+  
+}
+
+
