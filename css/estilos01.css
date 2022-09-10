@@ -1,0 +1,43 @@
+
+
+
+
+
+
+#navbarSupportedContent ul li {
+	font-size: 18px;
+
+}
+
+#navbarSupportedContent ul li a:hover{
+	color: #fceb00;
+	text-decoration: none;
+}
+
+.dropdown-menu{
+	background: black;
+
+}
+
+.dropdown-menu li a:hover{
+	background: black;
+}
+
+
+
+.container-fluid{
+    background: black;
+}
+#navbarSupportedContent a{
+    color: white;
+}
+
+.logo-img{
+
+width: 250px;
+
+text-align: centers;
+}
+
+
+
